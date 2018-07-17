@@ -15,6 +15,14 @@ app.get('/results', function(req,res){
 	var searchitem = req.query.moviesearch;
 
 	console.log(searchitem)
+	var url = "http://www.omdbapi.com/?apikey=thewdb&s=" + searchitem
+
+	request(url, function(error, response, body){
+		if(response.statusCode == 200 && !error){
+			var data = JSON.parse(body)
+			res.render('results', {data:data})
+		}
+	})
 	
 })
 
