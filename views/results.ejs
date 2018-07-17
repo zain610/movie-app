@@ -7,13 +7,14 @@
 
 <div>
 	<!-- refine the json chunk till the Search level. -->
-	<% data["Search"].forEach(function(movie){ %> 
+	<% data["results"].forEach(function(movie){ %> 
 	<ul>
 		<!-- Title and Year of release -->
-		<strong><%= movie["Title"] %></strong> - 
-		<%= movie["Year"] %> 
+		<strong><%= movie["title"] %></strong> - 
+		<%= movie["release_date"] %> 
 	</ul>
 	<!-- Poster -->
-	<a href="https://www.imdb.com/title/<%= movie["imdbID"]%>"><img src="<%= movie["Poster"] %>"></a>
+	<a href="https://www.themoviedb.org/movie/<%= movie["id"]%>"><img src="https://image.tmdb.org/t/p/w185/<%= movie["poster_path"] %>"></a>
 	<% }) %>
 </div>
+

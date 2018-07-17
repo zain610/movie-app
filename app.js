@@ -15,7 +15,7 @@ app.get('/results', function(req,res){
 	var searchitem = req.query.moviesearch;
 
 	console.log(searchitem)
-	var url = "http://www.omdbapi.com/?apikey=thewdb&s=" + searchitem
+	var url = "https://api.themoviedb.org/3/search/movie?api_key=7dbbf8ae82b409623b57d18c80319667&language=en-US&query=" + searchitem
 
 	request(url, function(error, response, body){
 		if(response.statusCode == 200 && !error){
