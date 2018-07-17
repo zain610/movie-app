@@ -4,8 +4,15 @@ Done:
 -make a working search bar
 
 to do:
--beautify
 
--make a tag list.--> categorise the movies, series by tags
+-Shift from OMDB to TMDB. 
+-beautify:
+  -using bootstrap
 
--make a sort list.
+-make a tag list.
+  --> generate a bunch of tags and assign match them to the description of the movie maybe?
+  --> categorise the movies, series by tags
+
+-Introduce aa refine list. so users can refine by date, popularity(rating), etc
+
+
