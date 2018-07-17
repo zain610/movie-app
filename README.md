@@ -13,8 +13,11 @@ to do:
 -Introduce aa refine list. so users can refine by date, popularity(rating), etc
 
 Doing:
+
 -OMDB to TMDB 
+
 -making partials- headers and footers
+
 -after partials, integrate bootstrap and try and beautify it.
 
 Done:
