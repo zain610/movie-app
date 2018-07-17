@@ -1,8 +1,5 @@
 # movie-app
 
-Done:
--make a working search bar
-
 to do:
 
 -Shift from OMDB to TMDB. 
@@ -14,5 +11,13 @@ to do:
   --> categorise the movies, series by tags
 
 -Introduce aa refine list. so users can refine by date, popularity(rating), etc
+
+Doing:
+-OMDB to TMDB 
+-making partials- headers and footers
+-after partials, integrate bootstrap and try and beautify it.
+
+Done:
+-make a working search bar
 
 
