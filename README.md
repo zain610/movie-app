@@ -1,14 +1,18 @@
 # movie-app
 
 TO RUN:
+
   dependencies:
-    - install express,ejs and request packages
+  
+    - npm install express,ejs and request packages
 
 
 to do:
 
 -Shift from OMDB to TMDB. 
+
 -beautify:
+
   -using bootstrap
 
 -make a tag list.
