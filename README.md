@@ -1,5 +1,10 @@
 # movie-app
 
+TO RUN:
+  dependencies:
+    - install express,ejs and request packages
+
+
 to do:
 
 -Shift from OMDB to TMDB. 
