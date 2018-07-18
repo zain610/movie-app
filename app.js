@@ -12,7 +12,7 @@ app.get('/', function(req, res){
 	res.render('search')
 })
 app.get('/results', function(req,res){
-	var searchitem = req.query.moviesearch;
+	var searchitem = req.query.search;
 
 	console.log(searchitem)
 	var url = "https://api.themoviedb.org/3/search/movie?api_key=7dbbf8ae82b409623b57d18c80319667&language=en-US&query=" + searchitem
