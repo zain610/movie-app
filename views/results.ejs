@@ -3,12 +3,15 @@
 
 <h1>Results Page</h1>
 
-<form action="/results" method="GET">
-	<input type="text" placeholder="Search Again" name="search">
-	<input type="submit">
-</form>
+<nav class="navbar navbar-light bg-light">
+	<form class="form-inline" action="/results" method="GET">
+		<input class="form-control mr-sm-2" type="text" placeholder="Search Again" name="search" aria-label="Search">
+		<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+	</form>
+</nav>
 
-<div class="container">
+
+<div class="jumbotron">
 	<!-- refine the json chunk till the Search level. -->
 	<% data["results"].forEach(function(movie){ %> 
 	<ul>
